@@ -1,0 +1,6 @@
+Flask==2.0.1
+pymongo==4.0.1
+werkzeug==2.0.1
+joblib
+pandas
+scikit-learn

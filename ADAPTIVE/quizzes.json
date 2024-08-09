@@ -1,0 +1,108 @@
+[
+    {
+        "_id": { "$oid": "64b2e4a6248f00b8e0423a91" },
+        "title": "Fundamentals of Computing",
+        "questions": [
+          {
+            "topic": "Data Science",
+            "questions": [
+                {
+                    "question": "What is the purpose of the `groupby` function in Pandas?",
+                    "options": ["To group data based on a column", "To merge dataframes", "To sort data", "To filter data"],
+                    "answer": "To group data based on a column"
+                },
+                {
+                    "question": "Which of the following is a supervised learning algorithm?",
+                    "options": ["K-means clustering", "Principal Component Analysis", "Decision Tree", "Association Rule Learning"],
+                    "answer": "Decision Tree"
+                },
+                {
+                    "question": "What does RMSE stand for?",
+                    "options": ["Root Mean Squared Error", "Relative Mean Squared Error", "Root Mean Square Estimation", "Relative Mean Square Estimation"],
+                    "answer": "Root Mean Squared Error"
+                },
+                {
+                    "question": "Which library in Python is used for data visualization?",
+                    "options": ["NumPy", "Pandas", "Matplotlib", "SciPy"],
+                    "answer": "Matplotlib"
+                }
+            ]
+        },
+        {
+            "topic": "Flutter",
+            "questions": [
+                {
+                    "question": "Which widget is used to create an unscrollable list of items in Flutter?",
+                    "options": ["ListView", "Column", "Row", "Stack"],
+                    "answer": "Column"
+                },
+                {
+                    "question": "What is the primary programming language used for Flutter development?",
+                    "options": ["Java", "Kotlin", "Dart", "Swift"],
+                    "answer": "Dart"
+                },
+                {
+                    "question": "Which widget is used for creating customizable buttons in Flutter?",
+                    "options": ["FlatButton", "RaisedButton", "CustomButton", "MaterialButton"],
+                    "answer": "MaterialButton"
+                },
+                {
+                    "question": "How do you define a stateless widget in Flutter?",
+                    "options": ["class MyWidget extends StatelessWidget", "class MyWidget extends StatefulWidget", "class MyWidget with StatelessWidget", "class MyWidget with StatefulWidget"],
+                    "answer": "class MyWidget extends StatelessWidget"
+                }
+            ]
+        },
+        {
+            "topic": "React",
+            "questions": [
+                {
+                    "question": "What is a state in React?",
+                    "options": ["A way to store data in components", "A type of component", "A type of prop", "A type of event"],
+                    "answer": "A way to store data in components"
+                },
+                {
+                    "question": "What is the purpose of the `useEffect` hook in React?",
+                    "options": ["To handle state", "To handle props", "To perform side effects", "To handle events"],
+                    "answer": "To perform side effects"
+                },
+                {
+                    "question": "What is the virtual DOM?",
+                    "options": ["A copy of the real DOM kept in memory", "A real DOM element", "A React component", "A CSS property"],
+                    "answer": "A copy of the real DOM kept in memory"
+                },
+                {
+                    "question": "Which of the following is used to pass data to components in React?",
+                    "options": ["Props", "State", "Context", "Refs"],
+                    "answer": "Props"
+                }
+            ]
+        },
+        {
+            "topic": "Security",
+            "questions": [
+                {
+                    "question": "What is the primary purpose of encryption?",
+                    "options": ["To protect data from unauthorized access", "To backup data", "To compress data", "To index data"],
+                    "answer": "To protect data from unauthorized access"
+                },
+                {
+                    "question": "Which of the following is a common type of cyber attack?",
+                    "options": ["SQL Injection", "Data Mining", "Data Analysis", "Web Scraping"],
+                    "answer": "SQL Injection"
+                },
+                {
+                    "question": "What does HTTPS stand for?",
+                    "options": ["HyperText Transfer Protocol Secure", "HyperText Transfer Protocol Service", "HyperText Transfer Protocol System", "HyperText Transfer Protocol Server"],
+                    "answer": "HyperText Transfer Protocol Secure"
+                },
+                {
+                    "question": "What is a firewall used for?",
+                    "options": ["To monitor and control network traffic", "To store data", "To create backups", "To encrypt data"],
+                    "answer": "To monitor and control network traffic"
+                }
+            ]
+        }
+        ]
+    }
+]
