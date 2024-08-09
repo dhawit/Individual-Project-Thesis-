@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Quiz</title>
+    <link rel="stylesheet" type="text/css" href="/static/quiz.css" />
+  </head>
+  <body>
+    <h1>Quiz</h1>
+    <form method="post">
+      <input type="hidden" name="quiz_id" value="{{ quiz._id }}" />
+      {% for topic in quiz.questions %}
+      <h2>{{ topic.topic }}</h2>
+      {% for i, question in enumerate(topic.questions) %}
+      <div>
+        <p>{{ question.question }}</p>
+        {% for option in question.options %}
+        <input
+          type="radio"
+          name="answer-{{ topic.topic }}-{{ i }}"
+          value="{{ option }}"
+        />
+        {{ option }}<br />
+        {% endfor %}
+      </div>
+      {% endfor %} {% endfor %}
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>

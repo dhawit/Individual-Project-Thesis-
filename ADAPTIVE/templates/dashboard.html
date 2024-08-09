@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="/static/dashboard.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <img src="/static/logo.png" alt="Edumate Logo" />
+          <h1>Edumate</h1>
+        </div>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="/resources">Resources</a></li>
+          <li><a href="#">Blogs</a></li>
+          <li><a href="#">Pages</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+        <button class="signup-btn">Sign Up</button>
+      </nav>
+    </header>
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Grow Your Skills to Advance Your Career Path</h1>
+        <p>
+          Educating, Inspiring, & Transforming Young Women. A Tuition-Free
+          Private Middle School
+        </p>
+        <div class="hero-buttons">
+          <button class="btn primary-btn">Get Started</button>
+          <button class="btn secondary-btn">Watch Video</button>
+        </div>
+      </div>
+    </section>
+    <section class="categories">
+      <h2>Explore Our Categories</h2>
+      <p>Look into yourself, get something in return as your Achievement</p>
+      <div class="category-list">
+        <div class="category-item">Data Science</div>
+        <div class="category-item">English</div>
+        <div class="category-item">Finance</div>
+        <div class="category-item">Content Writing</div>
+        <div class="category-item">Development</div>
+        <div class="category-item">Art & Design</div>
+        <div class="category-item">Management</div>
+        <div class="category-item">Business</div>
+      </div>
+    </section>
+    <section class="about-us">
+      <h2>About Us</h2>
+      <p>We Are Maximize Your Learning Growth</p>
+      <div class="about-us-content">
+        <div class="about-us-text">
+          <p>
+            Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt
+            qui esse pariatur duis deserunt mollit dolore cillum minim tempor
+            enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut
+            voluptate aute id deserunt nisi.
+          </p>
+          <ul>
+            <li>Training Services</li>
+            <li>Expert Trainer</li>
+            <li>Big Experience</li>
+            <li>Lifetime Access</li>
+          </ul>
+          <button class="btn">Explore More</button>
+        </div>
+        <div class="about-us-image">
+          <img
+            src="{{ url_for('static', filename='about-us-image.jpg') }}"
+            alt="About Us Image"
+          />
+          <img
+            src="{{ url_for('static', filename='about-us-video.jpg') }}"
+            alt="About Us Video"
+          />
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

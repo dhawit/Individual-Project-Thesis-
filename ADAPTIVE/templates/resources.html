@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resources</title>
+  </head>
+  <body>
+    <h1>Recommended Videos</h1>
+    <div id="video-recommendations">
+      {% for video in recommendations %}
+      <div class="video-item">
+        <img src="{{ video.thumbnail }}" alt="Thumbnail" />
+        <h2><a href="{{ video.url }}" target="_blank">{{ video.title }}</a></h2>
+      </div>
+      {% endfor %}
+    </div>
+  </body>
+</html>
